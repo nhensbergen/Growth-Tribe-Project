@@ -1,0 +1,47 @@
+a {
+  color: #336600;
+  text-decoration: underline; 
+}
+
+h1 {
+ font-size: 28px;
+ padding-top: 15px; 
+}
+
+h2 {
+font-size: 20px;
+}
+
+
+.main-content {
+  background: #f6f6f6;
+  border-radius: 5px;
+  padding-right: 20px; 
+  margin-top:15px;
+}
+
+.sub-content {
+ text-align: center;
+ background: #B2D0B2;
+ border-radius: 5px;
+ padding-left: 20px; 
+  margin-top:15px;
+}
+
+.text {
+  border-top: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+//-------------------------------------------------------------------------------------------
+
+// Extra small devices (portrait phones, less than 576px)
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+.sub-content {
+    margin-top: 25px; 
+  }
+}
